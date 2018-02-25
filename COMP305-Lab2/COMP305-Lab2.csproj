@@ -283,12 +283,19 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\BombLitHandler.cs" />
+    <Compile Include="Assets\Scripts\Camera\CameraCloseUpTrigger.cs" />
+    <Compile Include="Assets\Scripts\Camera\CameraFollowFixedY.cs" />
+    <Compile Include="Assets\Scripts\Camera\CameraFollowWithBuffer.cs" />
     <Compile Include="Assets\Scripts\ClickHandler.cs" />
     <Compile Include="Assets\Scripts\DestroyScore.cs" />
     <Compile Include="Assets\Scripts\ExplosionHandler.cs" />
+    <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\PlayerController1.cs" />
     <Compile Include="Assets\Scripts\PlayerController2.cs" />
     <Compile Include="Assets\Scripts\PlayerController3.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Week05\Week5\freeknight\README.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
